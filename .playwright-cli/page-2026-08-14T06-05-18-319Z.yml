@@ -1,0 +1,153 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "成长星球" [ref=e5] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=e7]
+      - generic [ref=e9]: 成长星球
+    - navigation [ref=e10]:
+      - link "今日" [ref=e11] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e12]
+        - text: 今日
+      - link "成长" [ref=e14] [cursor=pointer]:
+        - /url: "#/growth"
+        - img [ref=e15]
+        - text: 成长
+      - link "学习" [ref=e18] [cursor=pointer]:
+        - /url: "#/learn"
+        - img [ref=e19]
+        - text: 学习
+      - link "统计" [ref=e21] [cursor=pointer]:
+        - /url: "#/stats"
+        - img [ref=e22]
+        - text: 统计
+      - link "目标" [ref=e24] [cursor=pointer]:
+        - /url: "#/goals"
+        - img [ref=e25]
+        - text: 目标
+    - generic [ref=e29]:
+      - generic [ref=e30]: 8月14日 · 周五
+      - generic [ref=e31]: 👋 小明
+  - main [ref=e32]:
+    - generic [ref=e138]:
+      - button "返回目标列表" [ref=e139] [cursor=pointer]:
+        - img [ref=e140]
+        - text: 返回目标列表
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e145]:
+              - heading "打造强健体魄" [level=1] [ref=e147]
+              - generic [ref=e148]: 进行中
+            - paragraph [ref=e149]: 每周 3-4 次力量与有氧训练，从新手到养成稳定运动习惯
+          - generic [ref=e150]:
+            - generic [ref=e151]: 健身
+            - generic [ref=e152]:
+              - img [ref=e153]
+              - text: 90 天目标
+            - generic [ref=e155]:
+              - img [ref=e156]
+              - text: 8月14日 · 周五 开始
+        - generic [ref=e159]:
+          - generic [ref=e160]: 目标进度
+          - generic [ref=e161]: 0/0 次打卡 · 0%
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - img [ref=e166]
+          - generic [ref=e168]:
+            - heading "匹配推荐" [level=2] [ref=e169]
+            - paragraph [ref=e170]: 与该目标方向一致的最新 · 高浏览量内容，任你挑选
+        - generic [ref=e171]:
+          - generic [ref=e172]:
+            - generic [ref=e173] [cursor=pointer]:
+              - generic [ref=e174]:
+                - img [ref=e176]
+                - generic [ref=e178]:
+                  - generic [ref=e179]:
+                    - heading "《睡眠革命》" [level=4] [ref=e180]
+                    - generic [ref=e181]: 文字
+                  - paragraph [ref=e182]: 以 90 分钟周期规划睡眠，用晨光与体温节律唤醒身体。
+                  - generic [ref=e184]:
+                    - img [ref=e185]
+                    - text: 25 分钟
+              - generic [ref=e188]:
+                - generic [ref=e189]:
+                  - img [ref=e190]
+                  - text: 阅读
+                - button "已加入" [disabled] [ref=e306]:
+                  - img [ref=e194]
+                  - text: 已加入
+            - generic [ref=e195]:
+              - img [ref=e196]
+              - text: 4.0w
+          - generic [ref=e199]:
+            - generic [ref=e200] [cursor=pointer]:
+              - generic [ref=e201]:
+                - img [ref=e203]
+                - generic [ref=e206]:
+                  - generic [ref=e207]:
+                    - heading "居家力量训练计划（无器械）" [level=4] [ref=e208]
+                    - generic [ref=e209]: 视频
+                  - paragraph [ref=e210]: 俯卧撑、深蹲、核心训练的科学组合与进阶方法。
+                  - generic [ref=e212]:
+                    - img [ref=e213]
+                    - text: 30 分钟
+              - generic [ref=e216]:
+                - generic [ref=e217]:
+                  - img [ref=e218]
+                  - text: 观看
+                - button "加入今日" [ref=e222]:
+                  - img [ref=e223]
+                  - text: 加入今日
+            - generic [ref=e224]:
+              - img [ref=e225]
+              - text: "8932"
+          - generic [ref=e228]:
+            - generic [ref=e229] [cursor=pointer]:
+              - generic [ref=e230]:
+                - img [ref=e232]
+                - generic [ref=e234]:
+                  - generic [ref=e235]:
+                    - heading "睡前 30 分钟黄金习惯" [level=4] [ref=e236]
+                    - generic [ref=e237]: 文字
+                  - paragraph [ref=e238]: 放下手机、热水澡、轻阅读、写明日计划，一夜好眠。
+                  - generic [ref=e240]:
+                    - img [ref=e241]
+                    - text: 15 分钟
+              - generic [ref=e244]:
+                - generic [ref=e245]:
+                  - img [ref=e246]
+                  - text: 阅读
+                - button "加入今日" [ref=e249]:
+                  - img [ref=e250]
+                  - text: 加入今日
+            - generic [ref=e251]:
+              - img [ref=e252]
+              - text: 2.0w
+          - generic [ref=e255]:
+            - generic [ref=e256] [cursor=pointer]:
+              - generic [ref=e257]:
+                - img [ref=e259]
+                - generic [ref=e261]:
+                  - generic [ref=e262]:
+                    - heading "徒手力量训练基础" [level=4] [ref=e263]
+                    - generic [ref=e264]: 文字
+                  - paragraph [ref=e265]: 俯卧撑、深蹲、平板支撑三大动作的正确姿势与进阶。
+                  - generic [ref=e267]:
+                    - img [ref=e268]
+                    - text: 20 分钟
+              - generic [ref=e271]:
+                - generic [ref=e272]:
+                  - img [ref=e273]
+                  - text: 阅读
+                - button "加入今日" [ref=e276]:
+                  - img [ref=e277]
+                  - text: 加入今日
+            - generic [ref=e278]:
+              - img [ref=e279]
+              - text: 1.3w
+  - button "已加入今日计划 《睡眠革命》" [ref=e307] [cursor=pointer]:
+    - img [ref=e308]
+    - generic [ref=e311]:
+      - paragraph [ref=e312]: 已加入今日计划
+      - paragraph [ref=e313]: 《睡眠革命》

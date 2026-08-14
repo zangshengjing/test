@@ -1,0 +1,188 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - link "成长星球" [ref=e7] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e9]
+        - generic [ref=e11]: 成长星球
+      - navigation [ref=e12]:
+        - link "今日" [ref=e13] [cursor=pointer]:
+          - /url: "#/"
+          - img [ref=e14]
+          - text: 今日
+        - link "成长" [ref=e16] [cursor=pointer]:
+          - /url: "#/growth"
+          - img [ref=e17]
+          - text: 成长
+        - link "学习" [ref=e20] [cursor=pointer]:
+          - /url: "#/learn"
+          - img [ref=e21]
+          - text: 学习
+        - link "统计" [active] [ref=e23] [cursor=pointer]:
+          - /url: "#/stats"
+          - img [ref=e24]
+          - text: 统计
+        - link "目标" [ref=e26] [cursor=pointer]:
+          - /url: "#/goals"
+          - img [ref=e27]
+          - text: 目标
+      - generic [ref=e31]:
+        - generic [ref=e32]: 8月14日 · 周五
+        - generic [ref=e33]: 👋 小明
+    - main [ref=e34]:
+      - generic [ref=e598]:
+        - generic [ref=e599]:
+          - heading "成长统计" [level=1] [ref=e600]
+          - paragraph [ref=e601]: 坚持的每一步，都算数
+        - generic [ref=e602]:
+          - generic [ref=e603]:
+            - generic [ref=e604]:
+              - img [ref=e605]
+              - generic [ref=e607]: 连续打卡天数
+            - paragraph [ref=e608]: 0 天
+          - generic [ref=e609]:
+            - generic [ref=e610]:
+              - img [ref=e611]
+              - generic [ref=e614]: 本周完成率
+            - paragraph [ref=e615]: 0%
+          - generic [ref=e616]:
+            - generic [ref=e617]:
+              - img [ref=e618]
+              - generic [ref=e621]: 累计投入时长
+            - paragraph [ref=e622]: 0h 0m
+        - generic [ref=e623]:
+          - generic [ref=e624]:
+            - img [ref=e625]
+            - heading "打卡热力图" [level=2] [ref=e628]
+            - generic [ref=e629]: 近 90 天 · 今日 0/0
+          - generic [ref=e630]:
+            - generic [ref=e631]:
+              - generic "2026-05-17 · 0 次打卡" [ref=e633]
+              - generic "2026-05-18 · 0 次打卡" [ref=e634]
+              - generic "2026-05-19 · 0 次打卡" [ref=e635]
+              - generic "2026-05-20 · 0 次打卡" [ref=e636]
+              - generic "2026-05-21 · 0 次打卡" [ref=e637]
+              - generic "2026-05-22 · 0 次打卡" [ref=e638]
+            - generic [ref=e639]:
+              - generic "2026-05-23 · 0 次打卡" [ref=e640]
+              - generic "2026-05-24 · 0 次打卡" [ref=e641]
+              - generic "2026-05-25 · 0 次打卡" [ref=e642]
+              - generic "2026-05-26 · 0 次打卡" [ref=e643]
+              - generic "2026-05-27 · 0 次打卡" [ref=e644]
+              - generic "2026-05-28 · 0 次打卡" [ref=e645]
+              - generic "2026-05-29 · 0 次打卡" [ref=e646]
+            - generic [ref=e647]:
+              - generic "2026-05-30 · 0 次打卡" [ref=e648]
+              - generic "2026-05-31 · 0 次打卡" [ref=e649]
+              - generic "2026-06-01 · 0 次打卡" [ref=e650]
+              - generic "2026-06-02 · 0 次打卡" [ref=e651]
+              - generic "2026-06-03 · 0 次打卡" [ref=e652]
+              - generic "2026-06-04 · 0 次打卡" [ref=e653]
+              - generic "2026-06-05 · 0 次打卡" [ref=e654]
+            - generic [ref=e655]:
+              - generic "2026-06-06 · 0 次打卡" [ref=e656]
+              - generic "2026-06-07 · 0 次打卡" [ref=e657]
+              - generic "2026-06-08 · 0 次打卡" [ref=e658]
+              - generic "2026-06-09 · 0 次打卡" [ref=e659]
+              - generic "2026-06-10 · 0 次打卡" [ref=e660]
+              - generic "2026-06-11 · 0 次打卡" [ref=e661]
+              - generic "2026-06-12 · 0 次打卡" [ref=e662]
+            - generic [ref=e663]:
+              - generic "2026-06-13 · 0 次打卡" [ref=e664]
+              - generic "2026-06-14 · 0 次打卡" [ref=e665]
+              - generic "2026-06-15 · 0 次打卡" [ref=e666]
+              - generic "2026-06-16 · 0 次打卡" [ref=e667]
+              - generic "2026-06-17 · 0 次打卡" [ref=e668]
+              - generic "2026-06-18 · 0 次打卡" [ref=e669]
+              - generic "2026-06-19 · 0 次打卡" [ref=e670]
+            - generic [ref=e671]:
+              - generic "2026-06-20 · 0 次打卡" [ref=e672]
+              - generic "2026-06-21 · 0 次打卡" [ref=e673]
+              - generic "2026-06-22 · 0 次打卡" [ref=e674]
+              - generic "2026-06-23 · 0 次打卡" [ref=e675]
+              - generic "2026-06-24 · 0 次打卡" [ref=e676]
+              - generic "2026-06-25 · 0 次打卡" [ref=e677]
+              - generic "2026-06-26 · 0 次打卡" [ref=e678]
+            - generic [ref=e679]:
+              - generic "2026-06-27 · 0 次打卡" [ref=e680]
+              - generic "2026-06-28 · 0 次打卡" [ref=e681]
+              - generic "2026-06-29 · 0 次打卡" [ref=e682]
+              - generic "2026-06-30 · 0 次打卡" [ref=e683]
+              - generic "2026-07-01 · 0 次打卡" [ref=e684]
+              - generic "2026-07-02 · 0 次打卡" [ref=e685]
+              - generic "2026-07-03 · 0 次打卡" [ref=e686]
+            - generic [ref=e687]:
+              - generic "2026-07-04 · 0 次打卡" [ref=e688]
+              - generic "2026-07-05 · 0 次打卡" [ref=e689]
+              - generic "2026-07-06 · 0 次打卡" [ref=e690]
+              - generic "2026-07-07 · 0 次打卡" [ref=e691]
+              - generic "2026-07-08 · 0 次打卡" [ref=e692]
+              - generic "2026-07-09 · 0 次打卡" [ref=e693]
+              - generic "2026-07-10 · 0 次打卡" [ref=e694]
+            - generic [ref=e695]:
+              - generic "2026-07-11 · 0 次打卡" [ref=e696]
+              - generic "2026-07-12 · 0 次打卡" [ref=e697]
+              - generic "2026-07-13 · 0 次打卡" [ref=e698]
+              - generic "2026-07-14 · 0 次打卡" [ref=e699]
+              - generic "2026-07-15 · 0 次打卡" [ref=e700]
+              - generic "2026-07-16 · 0 次打卡" [ref=e701]
+              - generic "2026-07-17 · 0 次打卡" [ref=e702]
+            - generic [ref=e703]:
+              - generic "2026-07-18 · 0 次打卡" [ref=e704]
+              - generic "2026-07-19 · 0 次打卡" [ref=e705]
+              - generic "2026-07-20 · 0 次打卡" [ref=e706]
+              - generic "2026-07-21 · 0 次打卡" [ref=e707]
+              - generic "2026-07-22 · 0 次打卡" [ref=e708]
+              - generic "2026-07-23 · 0 次打卡" [ref=e709]
+              - generic "2026-07-24 · 0 次打卡" [ref=e710]
+            - generic [ref=e711]:
+              - generic "2026-07-25 · 0 次打卡" [ref=e712]
+              - generic "2026-07-26 · 0 次打卡" [ref=e713]
+              - generic "2026-07-27 · 0 次打卡" [ref=e714]
+              - generic "2026-07-28 · 0 次打卡" [ref=e715]
+              - generic "2026-07-29 · 0 次打卡" [ref=e716]
+              - generic "2026-07-30 · 0 次打卡" [ref=e717]
+              - generic "2026-07-31 · 0 次打卡" [ref=e718]
+            - generic [ref=e719]:
+              - generic "2026-08-01 · 0 次打卡" [ref=e720]
+              - generic "2026-08-02 · 0 次打卡" [ref=e721]
+              - generic "2026-08-03 · 0 次打卡" [ref=e722]
+              - generic "2026-08-04 · 0 次打卡" [ref=e723]
+              - generic "2026-08-05 · 0 次打卡" [ref=e724]
+              - generic "2026-08-06 · 0 次打卡" [ref=e725]
+              - generic "2026-08-07 · 0 次打卡" [ref=e726]
+            - generic [ref=e727]:
+              - generic "2026-08-08 · 0 次打卡" [ref=e728]
+              - generic "2026-08-09 · 0 次打卡" [ref=e729]
+              - generic "2026-08-10 · 0 次打卡" [ref=e730]
+              - generic "2026-08-11 · 0 次打卡" [ref=e731]
+              - generic "2026-08-12 · 0 次打卡" [ref=e732]
+              - generic "2026-08-13 · 0 次打卡" [ref=e733]
+              - generic "2026-08-14 · 0 次打卡" [ref=e734]
+        - generic [ref=e735]:
+          - generic [ref=e736]:
+            - heading "趋势分析" [level=2] [ref=e737]
+            - generic [ref=e738]:
+              - button "完成率" [ref=e739] [cursor=pointer]
+              - button "成长分" [ref=e740] [cursor=pointer]
+          - img [ref=e743]:
+            - generic [ref=e747]:
+              - generic [ref=e749]: 5/25
+              - generic [ref=e751]: 6/1
+              - generic [ref=e753]: 6/8
+              - generic [ref=e755]: 6/15
+              - generic [ref=e757]: 6/22
+              - generic [ref=e759]: 6/29
+              - generic [ref=e761]: 7/6
+              - generic [ref=e763]: 7/13
+              - generic [ref=e765]: 7/20
+              - generic [ref=e767]: 7/27
+              - generic [ref=e769]: 8/3
+              - generic [ref=e771]: 8/10
+            - generic [ref=e773]:
+              - generic [ref=e775]: "0"
+              - generic [ref=e777]: "25"
+              - generic [ref=e779]: "50"
+              - generic [ref=e781]: "75"
+              - generic [ref=e783]: "100"
+  - generic [ref=e784]: "0"

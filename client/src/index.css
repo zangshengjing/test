@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   Design Tokens（明媚阳光 · 暖白底 + 向日葵金→蜜橙→珊瑚渐变）
+   primitive → semantic → component
+   ============================================================ */
+@layer base {
+  :root {
+    /* primitive colors */
+    --sun-50: 48 75% 96%;
+    --sun-100: 46 70% 92%;
+    --sun-200: 44 60% 86%;
+    --sun-300: 42 45% 74%;
+    --sun-800: 34 30% 30%;
+    --sun-900: 30 32% 22%;
+    --amber-500: 40 100% 55%;
+    --coral-500: 14 88% 64%;
+    --sky-500: 199 92% 56%;
+
+    /* semantic tokens */
+    --background: var(--sun-50);
+    --foreground: 30 28% 20%;
+    --card: 45 70% 98%;
+    --card-foreground: 30 28% 20%;
+    --popover: 45 70% 99%;
+    --popover-foreground: 30 28% 20%;
+    --primary: var(--amber-500);
+    --primary-foreground: 0 0% 100%;
+    --secondary: var(--sun-200);
+    --secondary-foreground: 32 30% 25%;
+    --muted: 44 55% 90%;
+    --muted-foreground: 34 20% 45%;
+    --accent: var(--sky-500);
+    --accent-foreground: 0 0% 100%;
+    --destructive: 6 78% 58%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 42 35% 82%;
+    --input: 42 35% 80%;
+    --ring: var(--amber-500);
+
+    /* component tokens */
+    --radius: 1rem;
+    --glass-bg: rgba(255, 255, 255, 0.66);
+    --glass-border: rgba(255, 255, 255, 0.9);
+    --glass-shadow: 0 10px 36px rgba(210, 140, 40, 0.14);
+    --gradient-primary: linear-gradient(120deg, #ffb300 0%, #ff8a50 55%, #ff6b6b 100%);
+  }
+
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Poppins', 'PingFang SC', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* 阳光光晕 */
+    background-image:
+      radial-gradient(1100px 520px at 85% -10%, rgba(255, 193, 84, 0.5), transparent 60%),
+      radial-gradient(900px 480px at -10% 20%, rgba(255, 209, 128, 0.42), transparent 55%),
+      radial-gradient(800px 500px at 60% 110%, rgba(255, 138, 101, 0.28), transparent 60%);
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    background: rgba(255, 179, 0, 0.32);
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(180, 130, 60, 0.3);
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(180, 130, 60, 0.45);
+  }
+}
+
+/* ============================================================
+   Component Utilities
+   ============================================================ */
+@layer components {
+  /* 玻璃拟态卡片 */
+  .glass {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    box-shadow: var(--glass-shadow);
+  }
+
+  .glass-strong {
+    background: linear-gradient(160deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.6));
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    box-shadow: var(--glass-shadow);
+  }
+
+  /* 渐变强调文字 */
+  .text-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* 渐变强调背景 */
+  .bg-gradient-brand {
+    background-image: var(--gradient-primary);
+  }
+
+  /* 柔光按钮 */
+  .glow-hover {
+    transition: box-shadow 0.25s ease, transform 0.2s ease;
+  }
+  .glow-hover:hover {
+    box-shadow: 0 0 26px rgba(255, 179, 0, 0.32);
+    transform: translateY(-1px);
+  }
+
+  /* 打卡成功充能动画 */
+  .check-pop {
+    animation: check-pop 0.45s cubic-bezier(0.22, 1.2, 0.36, 1);
+  }
+  @keyframes check-pop {
+    0% {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+    55% {
+      transform: scale(1.15);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  /* 骨架屏闪烁 */
+  .skeleton {
+    background: linear-gradient(
+      90deg,
+      rgba(200, 160, 90, 0.08) 25%,
+      rgba(200, 160, 90, 0.18) 50%,
+      rgba(200, 160, 90, 0.08) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.6s linear infinite;
+  }
+
+  /* 安全区域（刘海屏适配） */
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}

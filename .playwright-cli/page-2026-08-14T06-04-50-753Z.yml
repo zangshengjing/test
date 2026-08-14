@@ -1,0 +1,180 @@
+- generic:
+  - generic:
+    - generic:
+      - banner:
+        - link:
+          - /url: "#/"
+          - generic:
+            - img
+          - generic: 成长星球
+        - navigation:
+          - link:
+            - /url: "#/"
+            - img
+            - text: 今日
+          - link:
+            - /url: "#/growth"
+            - img
+            - text: 成长
+          - link:
+            - /url: "#/learn"
+            - img
+            - text: 学习
+          - link:
+            - /url: "#/stats"
+            - img
+            - text: 统计
+          - link:
+            - /url: "#/goals"
+            - img
+            - text: 目标
+        - generic:
+          - generic: 8月14日 · 周五
+          - generic: 👋 小明
+      - main:
+        - generic:
+          - button:
+            - img
+            - text: 返回目标列表
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=1]: 打造强健体魄
+                  - generic: 进行中
+                - paragraph: 每周 3-4 次力量与有氧训练，从新手到养成稳定运动习惯
+              - generic:
+                - generic: 健身
+                - generic:
+                  - img
+                  - text: 90 天目标
+                - generic:
+                  - img
+                  - text: 8月14日 · 周五 开始
+            - generic:
+              - generic:
+                - generic: 目标进度
+                - generic: 0/0 次打卡 · 0%
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - heading [level=2]: 匹配推荐
+                - paragraph: 与该目标方向一致的最新 · 高浏览量内容，任你挑选
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - generic:
+                        - heading [level=4]: 《睡眠革命》
+                        - generic: 文字
+                      - paragraph: 以 90 分钟周期规划睡眠，用晨光与体温节律唤醒身体。
+                      - generic:
+                        - generic:
+                          - img
+                          - text: 25 分钟
+                  - generic:
+                    - generic:
+                      - img
+                      - text: 阅读
+                    - button:
+                      - img
+                      - text: 加入今日
+                - generic:
+                  - img
+                  - text: 4.0w
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - generic:
+                        - heading [level=4]: 居家力量训练计划（无器械）
+                        - generic: 视频
+                      - paragraph: 俯卧撑、深蹲、核心训练的科学组合与进阶方法。
+                      - generic:
+                        - generic:
+                          - img
+                          - text: 30 分钟
+                  - generic:
+                    - generic:
+                      - img
+                      - text: 观看
+                    - button:
+                      - img
+                      - text: 加入今日
+                - generic:
+                  - img
+                  - text: "8932"
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - generic:
+                        - heading [level=4]: 睡前 30 分钟黄金习惯
+                        - generic: 文字
+                      - paragraph: 放下手机、热水澡、轻阅读、写明日计划，一夜好眠。
+                      - generic:
+                        - generic:
+                          - img
+                          - text: 15 分钟
+                  - generic:
+                    - generic:
+                      - img
+                      - text: 阅读
+                    - button:
+                      - img
+                      - text: 加入今日
+                - generic:
+                  - img
+                  - text: 2.0w
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - generic:
+                        - heading [level=4]: 徒手力量训练基础
+                        - generic: 文字
+                      - paragraph: 俯卧撑、深蹲、平板支撑三大动作的正确姿势与进阶。
+                      - generic:
+                        - generic:
+                          - img
+                          - text: 20 分钟
+                  - generic:
+                    - generic:
+                      - img
+                      - text: 阅读
+                    - button:
+                      - img
+                      - text: 加入今日
+                - generic:
+                  - img
+                  - text: 1.3w
+  - dialog "《睡眠革命》" [ref=e283]:
+    - heading "《睡眠革命》" [level=2] [ref=e285]
+    - generic [ref=e286]:
+      - generic [ref=e287]:
+        - generic [ref=e288]: 文字
+        - generic [ref=e289]: body
+        - generic [ref=e290]: 25 分钟
+        - generic [ref=e291]:
+          - img [ref=e292]
+          - text: 4.0w 次浏览
+        - generic [ref=e295]: 发布于 7月20日 · 周一
+      - paragraph [ref=e296]: 以 90 分钟周期规划睡眠，用晨光与体温节律唤醒身体。
+      - generic [ref=e297]: 睡眠以 90 分钟为一个周期（R90 方案），成年人每天需要 4-6 个周期。 关键建议： 1. 固定起床时间，倒推入睡时间，而非"困了就睡"。 2. 睡前 30 分钟远离蓝光，调暗灯光，让褪黑素分泌。 3. 卧室温度 18 度左右，完全黑暗，安静。 4. 醒来先见自然光 15 分钟，帮助校准生物钟。 对职场人的意义：睡好觉 = 第二天的专注力、情绪稳定与免疫力。
+    - generic [ref=e298]:
+      - button "关闭" [active] [ref=e299] [cursor=pointer]
+      - button "加入今日计划" [ref=e300] [cursor=pointer]
+    - button "关闭" [ref=e301] [cursor=pointer]:
+      - img [ref=e302]
+      - generic [ref=e305]: 关闭

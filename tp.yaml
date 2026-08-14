@@ -1,0 +1,134 @@
+- generic [ref=e5]:
+  - banner [ref=e6]:
+    - link "成长星球" [ref=e7] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=e9]
+      - generic [ref=e11]: 成长星球
+    - navigation [ref=e12]:
+      - link "今日" [ref=e13] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e14]
+        - text: 今日
+      - link "成长" [ref=e16] [cursor=pointer]:
+        - /url: "#/growth"
+        - img [ref=e17]
+        - text: 成长
+      - link "学习" [ref=e20] [cursor=pointer]:
+        - /url: "#/learn"
+        - img [ref=e21]
+        - text: 学习
+      - link "统计" [ref=e23] [cursor=pointer]:
+        - /url: "#/stats"
+        - img [ref=e24]
+        - text: 统计
+      - link "目标" [ref=e26] [cursor=pointer]:
+        - /url: "#/goals"
+        - img [ref=e27]
+        - text: 目标
+    - generic [ref=e31]:
+      - generic [ref=e32]: 8月14日 · 周五
+      - generic [ref=e33]: 👋 小明
+  - main [ref=e34]:
+    - generic [ref=e35]:
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - paragraph [ref=e39]: 8月14日 · 周五
+          - heading "下午好，小明" [level=1] [ref=e40]
+          - paragraph [ref=e41]:
+            - img [ref=e42]
+            - text: 今天完成 0/0 项任务
+        - generic [ref=e44]:
+          - img [ref=e45]
+          - generic [ref=e48]:
+            - generic [ref=e49]: 0%
+            - generic [ref=e50]: 今日完成度
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - img [ref=e54]
+          - generic [ref=e56]:
+            - paragraph [ref=e57]: 今日学习内容
+            - heading "《微习惯》" [level=3] [ref=e58]
+            - paragraph [ref=e59]:
+              - generic [ref=e60]: 效率生活
+              - generic [ref=e61]:
+                - img [ref=e62]
+                - text: 25 分钟
+              - generic [ref=e65]: 文字
+        - generic [ref=e66]:
+          - paragraph [ref=e67]: 每天一个俯卧撑：用"小到不可能失败"的策略养成自律。
+          - button "开始阅读" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - text: 开始阅读
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - heading "24 小时时间表" [level=2] [ref=e74]
+            - paragraph [ref=e75]: 点击任意时间块可编辑 · 学习健身任务已自动插入黄金时段
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - generic [ref=e79]: 00:00
+              - generic [ref=e80]: 01:00
+              - generic [ref=e81]: 02:00
+              - generic [ref=e82]: 03:00
+              - generic [ref=e83]: 04:00
+              - generic [ref=e84]: 05:00
+              - generic [ref=e85]: 06:00
+              - generic [ref=e86]: 07:00
+              - generic [ref=e87]: 08:00
+              - generic [ref=e88]: 09:00
+              - generic [ref=e89]: 10:00
+              - generic [ref=e90]: 11:00
+              - generic [ref=e91]: 12:00
+              - generic [ref=e92]: 13:00
+              - generic [ref=e93]: 14:00
+              - generic [ref=e94]: 15:00
+              - generic [ref=e95]: 16:00
+              - generic [ref=e96]: 17:00
+              - generic [ref=e97]: 18:00
+              - generic [ref=e98]: 19:00
+              - generic [ref=e99]: 20:00
+              - generic [ref=e100]: 21:00
+              - generic [ref=e101]: 22:00
+              - generic [ref=e102]: 23:00
+              - generic [ref=e103]: 24:00
+            - generic [ref=e104]:
+              - button "00:00 – 06:30 睡眠" [ref=e130] [cursor=pointer]:
+                - generic [ref=e131]: 00:00 – 06:30
+                - generic [ref=e132]: 睡眠
+              - button "06:30 – 07:15 晨间唤醒 · 洗漱与早餐" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134]: 06:30 – 07:15
+                - generic [ref=e135]: 晨间唤醒 · 洗漱与早餐
+              - button "08:30 – 09:00 通勤 · 去公司" [ref=e136] [cursor=pointer]:
+                - generic [ref=e137]: 08:30 – 09:00
+                - generic [ref=e138]: 通勤 · 去公司
+              - button "09:00 – 18:30 工作 · 深度专注" [ref=e139] [cursor=pointer]:
+                - generic [ref=e140]: 09:00 – 18:30
+                - generic [ref=e141]: 工作 · 深度专注
+              - button "13:17 – 14:17 午餐 · 休息" [ref=e142] [cursor=pointer]:
+                - generic [ref=e143]: 13:17 – 14:17
+                - generic [ref=e144]: 午餐 · 休息
+              - button "18:30 – 19:00 通勤 · 回家" [ref=e145] [cursor=pointer]:
+                - generic [ref=e146]: 18:30 – 19:00
+                - generic [ref=e147]: 通勤 · 回家
+              - button "19:00 – 20:00 晚餐 · 家庭时光" [ref=e148] [cursor=pointer]:
+                - generic [ref=e149]: 19:00 – 20:00
+                - generic [ref=e150]: 晚餐 · 家庭时光
+              - button "22:30 – 23:00 睡前放松 · 复盘明日" [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]: 22:30 – 23:00
+                - generic [ref=e153]: 睡前放松 · 复盘明日
+              - button "23:00 – 24:00 睡眠" [ref=e154] [cursor=pointer]:
+                - generic [ref=e155]: 23:00 – 24:00
+                - generic [ref=e156]: 睡眠
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - heading "今日任务" [level=2] [ref=e164]:
+                - img [ref=e165]
+                - text: 今日任务
+              - paragraph [ref=e167]: 按星期自动轮换 · 支持手动添加
+            - button "添加" [ref=e168] [cursor=pointer]:
+              - img
+              - text: 添加
+          - generic [ref=e170]:
+            - img [ref=e171]
+            - paragraph [ref=e174]: 今天还没有任务，去「目标」页创建目标，或点击右上角手动添加

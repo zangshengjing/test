@@ -1,0 +1,9 @@
+- generic [ref=e4]:
+  - generic [ref=e11]:
+    - img [ref=e13]
+    - heading "欢迎来到 成长星球" [level=1] [ref=e15]
+    - paragraph [ref=e16]: 即将步入婚姻与家庭，是时候为身体、财务、技能与心态做一次系统升级。 让我们用 4 步完成你的个人成长档案。
+    - button "开始初始化" [ref=e17] [cursor=pointer]:
+      - text: 开始初始化
+      - img
+  - paragraph [ref=e18]: 第 1 步 / 共 4 步 · 每天进步一点点

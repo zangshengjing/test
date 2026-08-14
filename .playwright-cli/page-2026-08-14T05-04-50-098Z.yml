@@ -1,0 +1,202 @@
+- generic [ref=e5]:
+  - banner [ref=e6]:
+    - link "成长星球" [ref=e7] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=e9]
+      - generic [ref=e11]: 成长星球
+    - navigation [ref=e12]:
+      - link "今日" [ref=e13] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e14]
+        - text: 今日
+      - link "成长" [ref=e16] [cursor=pointer]:
+        - /url: "#/growth"
+        - img [ref=e17]
+        - text: 成长
+      - link "学习" [active] [ref=e20] [cursor=pointer]:
+        - /url: "#/learn"
+        - img [ref=e21]
+        - text: 学习
+      - link "统计" [ref=e23] [cursor=pointer]:
+        - /url: "#/stats"
+        - img [ref=e24]
+        - text: 统计
+      - link "目标" [ref=e26] [cursor=pointer]:
+        - /url: "#/goals"
+        - img [ref=e27]
+        - text: 目标
+    - generic [ref=e31]:
+      - generic [ref=e32]: 8月14日 · 周五
+      - generic [ref=e33]: 👋 小明
+  - main [ref=e34]:
+    - generic [ref=e357]:
+      - generic [ref=e358]:
+        - generic [ref=e359]:
+          - heading "学习库" [level=1] [ref=e360]
+          - paragraph [ref=e361]: 精选书单 · 课程 · 成长路径，一键加入今日计划
+        - button "添加内容" [ref=e362] [cursor=pointer]:
+          - img
+          - text: 添加内容
+      - generic [ref=e363]:
+        - tablist [ref=e364]:
+          - tab "📚 书单" [selected] [ref=e365] [cursor=pointer]
+          - tab "🎬 课程" [ref=e366] [cursor=pointer]
+          - tab "🧭 技能路径" [ref=e367] [cursor=pointer]
+          - tab "🗂 内容库" [ref=e368] [cursor=pointer]
+        - tabpanel "📚 书单" [ref=e369]:
+          - generic [ref=e370]:
+            - generic [ref=e371]:
+              - img [ref=e373]
+              - generic [ref=e375]:
+                - generic [ref=e376]:
+                  - heading "《掌控习惯》" [level=4] [ref=e377]
+                  - generic [ref=e378]: 文字
+                - paragraph [ref=e379]: James Clear 习惯四法则：让好习惯显而易见、有吸引力、简便易行、令人愉悦。
+                - generic [ref=e380]:
+                  - generic [ref=e381]: 心态正念
+                  - generic [ref=e382]:
+                    - img [ref=e383]
+                    - text: 30 分钟
+            - generic [ref=e386]:
+              - generic [ref=e387]:
+                - img [ref=e388]
+                - text: 阅读
+              - button "加入今日" [ref=e391] [cursor=pointer]:
+                - img [ref=e392]
+                - text: 加入今日
+          - generic [ref=e393]:
+            - generic [ref=e394]:
+              - img [ref=e396]
+              - generic [ref=e398]:
+                - generic [ref=e399]:
+                  - heading "《微习惯》" [level=4] [ref=e400]
+                  - generic [ref=e401]: 文字
+                - paragraph [ref=e402]: 每天一个俯卧撑：用"小到不可能失败"的策略养成自律。
+                - generic [ref=e403]:
+                  - generic [ref=e404]: 效率生活
+                  - generic [ref=e405]:
+                    - img [ref=e406]
+                    - text: 25 分钟
+            - generic [ref=e409]:
+              - generic [ref=e410]:
+                - img [ref=e411]
+                - text: 阅读
+              - button "加入今日" [ref=e414] [cursor=pointer]:
+                - img [ref=e415]
+                - text: 加入今日
+          - generic [ref=e416]:
+            - generic [ref=e417]:
+              - img [ref=e419]
+              - generic [ref=e421]:
+                - generic [ref=e422]:
+                  - heading "《富爸爸穷爸爸》核心财商" [level=4] [ref=e423]
+                  - generic [ref=e424]: 文字
+                - paragraph [ref=e425]: 资产与负债的本质：让钱为你工作，而不是为钱工作。
+                - generic [ref=e426]:
+                  - generic [ref=e427]: 理财知识
+                  - generic [ref=e428]:
+                    - img [ref=e429]
+                    - text: 30 分钟
+            - generic [ref=e432]:
+              - generic [ref=e433]:
+                - img [ref=e434]
+                - text: 阅读
+              - button "加入今日" [ref=e437] [cursor=pointer]:
+                - img [ref=e438]
+                - text: 加入今日
+          - generic [ref=e439]:
+            - generic [ref=e440]:
+              - img [ref=e442]
+              - generic [ref=e444]:
+                - generic [ref=e445]:
+                  - heading "《非暴力沟通》" [level=4] [ref=e446]
+                  - generic [ref=e447]: 文字
+                - paragraph [ref=e448]: 观察-感受-需要-请求四步法，化解亲密关系与职场冲突。
+                - generic [ref=e450]:
+                  - img [ref=e451]
+                  - text: 30 分钟
+            - generic [ref=e454]:
+              - generic [ref=e455]:
+                - img [ref=e456]
+                - text: 阅读
+              - button "加入今日" [ref=e459] [cursor=pointer]:
+                - img [ref=e460]
+                - text: 加入今日
+          - generic [ref=e461]:
+            - generic [ref=e462]:
+              - img [ref=e464]
+              - generic [ref=e466]:
+                - generic [ref=e467]:
+                  - heading "《深度工作》" [level=4] [ref=e468]
+                  - generic [ref=e469]: 文字
+                - paragraph [ref=e470]: 在碎片化时代，用深度专注建立不可替代的稀缺能力。
+                - generic [ref=e472]:
+                  - img [ref=e473]
+                  - text: 35 分钟
+            - generic [ref=e476]:
+              - generic [ref=e477]:
+                - img [ref=e478]
+                - text: 阅读
+              - button "加入今日" [ref=e481] [cursor=pointer]:
+                - img [ref=e482]
+                - text: 加入今日
+          - generic [ref=e483]:
+            - generic [ref=e484]:
+              - img [ref=e486]
+              - generic [ref=e488]:
+                - generic [ref=e489]:
+                  - heading "《睡眠革命》" [level=4] [ref=e490]
+                  - generic [ref=e491]: 文字
+                - paragraph [ref=e492]: 以 90 分钟周期规划睡眠，用晨光与体温节律唤醒身体。
+                - generic [ref=e494]:
+                  - img [ref=e495]
+                  - text: 25 分钟
+            - generic [ref=e498]:
+              - generic [ref=e499]:
+                - img [ref=e500]
+                - text: 阅读
+              - button "加入今日" [ref=e503] [cursor=pointer]:
+                - img [ref=e504]
+                - text: 加入今日
+          - generic [ref=e505]:
+            - generic [ref=e506]:
+              - img [ref=e508]
+              - generic [ref=e510]:
+                - generic [ref=e511]:
+                  - heading "《爱的五种语言》" [level=4] [ref=e512]
+                  - generic [ref=e513]: 文字
+                - paragraph [ref=e514]: 肯定的言辞、精心的时刻、接受礼物、服务的行动、身体的接触。
+                - generic [ref=e515]:
+                  - generic [ref=e516]: 家庭关系
+                  - generic [ref=e517]:
+                    - img [ref=e518]
+                    - text: 25 分钟
+            - generic [ref=e521]:
+              - generic [ref=e522]:
+                - img [ref=e523]
+                - text: 阅读
+              - button "加入今日" [ref=e526] [cursor=pointer]:
+                - img [ref=e527]
+                - text: 加入今日
+          - generic [ref=e528]:
+            - generic [ref=e529]:
+              - img [ref=e531]
+              - generic [ref=e533]:
+                - generic [ref=e534]:
+                  - heading "《十分钟冥想》" [level=4] [ref=e535]
+                  - generic [ref=e536]: 文字
+                - paragraph [ref=e537]: 每天 10 分钟正念练习，找回专注与平静。
+                - generic [ref=e538]:
+                  - generic [ref=e539]: 心态正念
+                  - generic [ref=e540]:
+                    - img [ref=e541]
+                    - text: 20 分钟
+            - generic [ref=e544]:
+              - generic [ref=e545]:
+                - img [ref=e546]
+                - text: 阅读
+              - button "加入今日" [ref=e549] [cursor=pointer]:
+                - img [ref=e550]
+                - text: 加入今日
+        - tabpanel "🎬 课程"
+        - tabpanel "🗂 内容库"

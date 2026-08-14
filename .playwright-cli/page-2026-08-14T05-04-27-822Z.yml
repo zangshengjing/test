@@ -1,0 +1,127 @@
+- generic [ref=e5]:
+  - banner [ref=e6]:
+    - link "成长星球" [ref=e7] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=e9]
+      - generic [ref=e11]: 成长星球
+    - navigation [ref=e12]:
+      - link "今日" [ref=e13] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e14]
+        - text: 今日
+      - link "成长" [active] [ref=e16] [cursor=pointer]:
+        - /url: "#/growth"
+        - img [ref=e17]
+        - text: 成长
+      - link "学习" [ref=e20] [cursor=pointer]:
+        - /url: "#/learn"
+        - img [ref=e21]
+        - text: 学习
+      - link "统计" [ref=e23] [cursor=pointer]:
+        - /url: "#/stats"
+        - img [ref=e24]
+        - text: 统计
+      - link "目标" [ref=e26] [cursor=pointer]:
+        - /url: "#/goals"
+        - img [ref=e27]
+        - text: 目标
+    - generic [ref=e31]:
+      - generic [ref=e32]: 8月14日 · 周五
+      - generic [ref=e33]: 👋 小明
+  - main [ref=e34]:
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - heading "成长体检" [level=1] [ref=e178]
+          - paragraph [ref=e179]: 最近测评 · 8月14日 · 周五
+        - button "重新测评" [ref=e180] [cursor=pointer]:
+          - img
+          - text: 重新测评
+      - generic [ref=e181]:
+        - heading "8 维度能力雷达" [level=2] [ref=e183]
+        - img [ref=e186]:
+          - generic [ref=e200]:
+            - generic [ref=e202]: 身体健康
+            - generic [ref=e205]: 财务自由
+            - generic [ref=e207]: 职业技能
+            - generic [ref=e210]: 人际关系
+            - generic [ref=e212]: 心态情绪
+            - generic [ref=e215]: 家庭责任
+            - generic [ref=e217]: 精神成长
+            - generic [ref=e220]: 生活管理
+      - generic [ref=e221]:
+        - generic [ref=e222]:
+          - generic [ref=e223]:
+            - img [ref=e224]
+            - generic [ref=e228]: "0"
+          - generic [ref=e229]:
+            - generic [ref=e230]:
+              - heading "身体健康" [level=4] [ref=e231]
+              - generic [ref=e232]: 待改善
+            - paragraph [ref=e233]: 睡眠、运动与饮食，是一切成长的物质基础。
+        - generic [ref=e234]:
+          - generic [ref=e235]:
+            - img [ref=e236]
+            - generic [ref=e240]: "0"
+          - generic [ref=e241]:
+            - generic [ref=e242]:
+              - heading "财务自由" [level=4] [ref=e243]
+              - generic [ref=e244]: 待改善
+            - paragraph [ref=e245]: 储蓄、记账与规划，为家庭和未来建立安全垫。
+        - generic [ref=e246]:
+          - generic [ref=e247]:
+            - img [ref=e248]
+            - generic [ref=e252]: "0"
+          - generic [ref=e253]:
+            - generic [ref=e254]:
+              - heading "职业技能" [level=4] [ref=e255]
+              - generic [ref=e256]: 待改善
+            - paragraph [ref=e257]: 硬技能与成长路径，决定职业天花板。
+        - generic [ref=e258]:
+          - generic [ref=e259]:
+            - img [ref=e260]
+            - generic [ref=e264]: "0"
+          - generic [ref=e265]:
+            - generic [ref=e266]:
+              - heading "人际关系" [level=4] [ref=e267]
+              - generic [ref=e268]: 待改善
+            - paragraph [ref=e269]: 与家人、朋友的联结质量，滋养内心能量。
+        - generic [ref=e270]:
+          - generic [ref=e271]:
+            - img [ref=e272]
+            - generic [ref=e276]: "0"
+          - generic [ref=e277]:
+            - generic [ref=e278]:
+              - heading "心态情绪" [level=4] [ref=e279]
+              - generic [ref=e280]: 待改善
+            - paragraph [ref=e281]: 情绪稳定与正念，是应对压力的底层能力。
+        - generic [ref=e282]:
+          - generic [ref=e283]:
+            - img [ref=e284]
+            - generic [ref=e288]: "0"
+          - generic [ref=e289]:
+            - generic [ref=e290]:
+              - heading "家庭责任" [level=4] [ref=e291]
+              - generic [ref=e292]: 待改善
+            - paragraph [ref=e293]: 从被照顾者走向家庭支柱的成长必修课。
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - img [ref=e296]
+            - generic [ref=e300]: "0"
+          - generic [ref=e301]:
+            - generic [ref=e302]:
+              - heading "精神成长" [level=4] [ref=e303]
+              - generic [ref=e304]: 待改善
+            - paragraph [ref=e305]: 阅读与内省，让思想保持清澈与丰盈。
+        - generic [ref=e306]:
+          - generic [ref=e307]:
+            - img [ref=e308]
+            - generic [ref=e312]: "0"
+          - generic [ref=e313]:
+            - generic [ref=e314]:
+              - heading "生活管理" [level=4] [ref=e315]
+              - generic [ref=e316]: 待改善
+            - paragraph [ref=e317]: 时间与秩序管理，让每一天高效而不失从容。
+      - generic [ref=e318]:
+        - heading "改进建议清单" [level=2] [ref=e319]
+        - paragraph [ref=e320]: 各项表现优秀，保持节奏，向更高目标进发 🚀

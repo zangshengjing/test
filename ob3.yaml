@@ -1,0 +1,31 @@
+- generic [ref=e4]:
+  - generic [ref=e53]:
+    - heading "选择成长目标" [level=2] [ref=e54]
+    - paragraph [ref=e55]: 可多选，系统会自动拆解为每日任务
+    - generic [ref=e56]:
+      - button "打造强健体魄 每周 3-4 次力量与有氧训练，从新手到养成稳定运动习惯" [ref=e57] [cursor=pointer]:
+        - generic [ref=e60]: 打造强健体魄
+        - generic [ref=e61]: 每周 3-4 次力量与有氧训练，从新手到养成稳定运动习惯
+      - button "职业硬技能进阶 每天 40 分钟技术学习，90 天完成一个能力跃迁" [ref=e62] [cursor=pointer]:
+        - generic [ref=e65]: 职业硬技能进阶
+        - generic [ref=e66]: 每天 40 分钟技术学习，90 天完成一个能力跃迁
+      - button "家庭财务规划 记账、储蓄与理财学习，为婚姻和新家庭建立安全垫" [ref=e67] [cursor=pointer]:
+        - generic [ref=e70]: 家庭财务规划
+        - generic [ref=e71]: 记账、储蓄与理财学习，为婚姻和新家庭建立安全垫
+      - button "经营幸福家庭 每天专注陪伴家人，学习沟通与责任承担" [ref=e72] [cursor=pointer]:
+        - generic [ref=e75]: 经营幸福家庭
+        - generic [ref=e76]: 每天专注陪伴家人，学习沟通与责任承担
+      - button "心态与情绪管理 每日冥想与情绪觉察，做一个情绪稳定的人" [ref=e77] [cursor=pointer]:
+        - generic [ref=e80]: 心态与情绪管理
+        - generic [ref=e81]: 每日冥想与情绪觉察，做一个情绪稳定的人
+      - button "深度阅读计划 每天 30 分钟阅读，一年完成 12+ 本经典" [ref=e82] [cursor=pointer]:
+        - generic [ref=e85]: 深度阅读计划
+        - generic [ref=e86]: 每天 30 分钟阅读，一年完成 12+ 本经典
+    - generic [ref=e87]:
+      - button "上一步" [ref=e88] [cursor=pointer]:
+        - img
+        - text: 上一步
+      - button "开始自评" [ref=e89] [cursor=pointer]:
+        - text: 开始自评
+        - img
+  - paragraph [ref=e18]: 第 3 步 / 共 4 步 · 每天进步一点点

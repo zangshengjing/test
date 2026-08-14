@@ -1,0 +1,31 @@
+[      48ms] [ERROR] [api] 网络错误: /content/today?date=2026-08-14 TypeError: Failed to fetch
+    at request (http://localhost:5173/client/src/api/client.ts:13:17)
+    at Object.get (http://localhost:5173/client/src/api/client.ts:34:18)
+    at fetchToday (http://localhost:5173/client/src/store/useContentStore.ts:9:29)
+    at http://localhost:5173/client/src/pages/TodayPage.tsx:61:5
+    at commitHookEffectListMount (http://localhost:5173/node_modules/.vite/deps/chunk-2MWANQQC.js?v=6dc24262:16915:34)
+    at invokePassiveEffectMountInDEV (http://localhost:5173/node_modules/.vite/deps/chunk-2MWANQQC.js?v=6dc24262:18324:19)
+    at invokeEffectsInDev (http://localhost:5173/node_modules/.vite/deps/chunk-2MWANQQC.js?v=6dc24262:19701:19)
+    at commitDoubleInvokeEffectsInDEV (http://localhost:5173/node_modules/.vite/deps/chunk-2MWANQQC.js?v=6dc24262:19686:15)
+    at flushPassiveEffectsImpl (http://localhost:5173/node_modules/.vite/deps/chunk-2MWANQQC.js?v=6dc24262:19503:13)
+    at flushPassiveEffects (http://localhost:5173/node_modules/.vite/deps/chunk-2MWANQQC.js?v=6dc24262:19447:22) @ http://localhost:5173/client/src/api/client.ts:17
+[      48ms] [ERROR] [api] 网络错误: /checkins?date=2026-08-14 TypeError: Failed to fetch
+    at request (http://localhost:5173/client/src/api/client.ts:13:17)
+    at Object.get (http://localhost:5173/client/src/api/client.ts:34:18)
+    at fetchCheckins (http://localhost:5173/client/src/store/useCheckinStore.ts:7:29)
+    at http://localhost:5173/client/src/pages/TodayPage.tsx:60:5
+    at commitHookEffectListMount (http://localhost:5173/node_modules/.vite/deps/chunk-2MWANQQC.js?v=6dc24262:16915:34)
+    at invokePassiveEffectMountInDEV (http://localhost:5173/node_modules/.vite/deps/chunk-2MWANQQC.js?v=6dc24262:18324:19)
+    at invokeEffectsInDev (http://localhost:5173/node_modules/.vite/deps/chunk-2MWANQQC.js?v=6dc24262:19701:19)
+    at commitDoubleInvokeEffectsInDEV (http://localhost:5173/node_modules/.vite/deps/chunk-2MWANQQC.js?v=6dc24262:19686:15)
+    at flushPassiveEffectsImpl (http://localhost:5173/node_modules/.vite/deps/chunk-2MWANQQC.js?v=6dc24262:19503:13)
+    at flushPassiveEffects (http://localhost:5173/node_modules/.vite/deps/chunk-2MWANQQC.js?v=6dc24262:19447:22) @ http://localhost:5173/client/src/api/client.ts:17
+[      49ms] [ERROR] [content] 今日内容加载失败 ApiError: 无法连接服务器，请确认后端已启动
+    at request (http://localhost:5173/client/src/api/client.ts:19:11)
+    at async fetchToday (http://localhost:5173/client/src/store/useContentStore.ts:9:19) @ http://localhost:5173/client/src/store/useContentStore.ts:11
+[      49ms] [ERROR] [checkins] 加载失败 ApiError: 无法连接服务器，请确认后端已启动
+    at request (http://localhost:5173/client/src/api/client.ts:19:11)
+    at async fetchCheckins (http://localhost:5173/client/src/store/useCheckinStore.ts:7:19) @ http://localhost:5173/client/src/store/useCheckinStore.ts:11
+[     228ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-2MWANQQC.js?v=6dc24262:21550
+[     279ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=6dc24262:4426
+[     279ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=6dc24262:4426

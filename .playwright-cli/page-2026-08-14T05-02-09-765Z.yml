@@ -1,0 +1,42 @@
+- generic [ref=e4]:
+  - generic [ref=e19]:
+    - heading "作息与个人信息" [level=2] [ref=e20]
+    - paragraph [ref=e21]: 时间表将依据你的作息自动生成
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - text: 怎么称呼你？
+        - textbox "例如：小明" [ref=e24]
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - text: 起床时间
+          - textbox [ref=e27]: 06:30
+        - generic [ref=e28]:
+          - text: 睡觉时间
+          - textbox [ref=e29]: 23:00
+        - generic [ref=e30]:
+          - text: 上班时间
+          - textbox [ref=e31]: 09:00
+        - generic [ref=e32]:
+          - text: 下班时间
+          - textbox [ref=e33]: 18:30
+      - generic [ref=e34]:
+        - generic [ref=e35]: 单程通勤时长：30 分钟
+        - slider [ref=e40]
+      - generic [ref=e41]:
+        - text: 工作日（可多选）
+        - generic [ref=e42]:
+          - button "日" [ref=e43] [cursor=pointer]
+          - button "一" [ref=e44] [cursor=pointer]
+          - button "二" [ref=e45] [cursor=pointer]
+          - button "三" [ref=e46] [cursor=pointer]
+          - button "四" [ref=e47] [cursor=pointer]
+          - button "五" [ref=e48] [cursor=pointer]
+          - button "六" [ref=e49] [cursor=pointer]
+    - generic [ref=e50]:
+      - button "上一步" [ref=e51] [cursor=pointer]:
+        - img
+        - text: 上一步
+      - button "选择目标" [ref=e52] [cursor=pointer]:
+        - text: 选择目标
+        - img
+  - paragraph [ref=e18]: 第 2 步 / 共 4 步 · 每天进步一点点

@@ -1,0 +1,221 @@
+- generic [ref=e4]:
+  - generic [ref=e90]:
+    - heading "8 维度健康自评" [level=2] [ref=e91]
+    - paragraph [ref=e92]: 如实作答，系统将为你生成体检报告与建议
+    - generic [ref=e93]:
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - heading "身体健康" [level=3] [ref=e97]
+          - generic [ref=e98]: 待作答
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - paragraph [ref=e101]: 你平均每天的有效睡眠时长是？
+            - generic [ref=e102]:
+              - button "不足 6 小时" [ref=e103] [cursor=pointer]
+              - button "6～7 小时，常熬夜" [ref=e104] [cursor=pointer]
+              - button "7 小时左右，基本规律" [ref=e105] [cursor=pointer]
+              - button "7.5 小时以上，睡眠质量高" [ref=e106] [cursor=pointer]
+          - generic [ref=e107]:
+            - paragraph [ref=e108]: 你每周进行中等强度运动（快走/慢跑/力量）的次数？
+            - generic [ref=e109]:
+              - button "几乎不运动" [ref=e110] [cursor=pointer]
+              - button "1 次" [ref=e111] [cursor=pointer]
+              - button "2～3 次" [ref=e112] [cursor=pointer]
+              - button "4 次及以上" [ref=e113] [cursor=pointer]
+          - generic [ref=e114]:
+            - paragraph [ref=e115]: 你的三餐与饮水规律程度如何？
+            - generic [ref=e116]:
+              - button "不定时，常吃外卖高油高糖" [ref=e117] [cursor=pointer]
+              - button "偶尔规律，饮食随意" [ref=e118] [cursor=pointer]
+              - button "基本规律，会注意营养" [ref=e119] [cursor=pointer]
+              - button "很规律，有明确饮食计划" [ref=e120] [cursor=pointer]
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - heading "财务自由" [level=3] [ref=e124]
+          - generic [ref=e125]: 待作答
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - paragraph [ref=e128]: 你每月是否有固定比例的储蓄？
+            - generic [ref=e129]:
+              - button "没有，月底常月光" [ref=e130] [cursor=pointer]
+              - button "有结余就存，不稳定" [ref=e131] [cursor=pointer]
+              - button "有固定比例储蓄" [ref=e132] [cursor=pointer]
+              - button "有储蓄+投资双轨计划" [ref=e133] [cursor=pointer]
+          - generic [ref=e134]:
+            - paragraph [ref=e135]: 你是否有记账与月度复盘的习惯？
+            - generic [ref=e136]:
+              - button "从不记账，花多少不清楚" [ref=e137] [cursor=pointer]
+              - button "只记大额支出" [ref=e138] [cursor=pointer]
+              - button "用工具记账，月度大致复盘" [ref=e139] [cursor=pointer]
+              - button "分类预算+每周复盘" [ref=e140] [cursor=pointer]
+          - generic [ref=e141]:
+            - paragraph [ref=e142]: 你对未来 1～3 年家庭财务的掌控感？
+            - generic [ref=e143]:
+              - button "完全没有概念" [ref=e144] [cursor=pointer]
+              - button "知道要攒钱但无规划" [ref=e145] [cursor=pointer]
+              - button "有存款目标，正在执行" [ref=e146] [cursor=pointer]
+              - button "有完整财务规划并动态调整" [ref=e147] [cursor=pointer]
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - heading "职业技能" [level=3] [ref=e151]
+          - generic [ref=e152]: 待作答
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - paragraph [ref=e155]: 你每周投入职业技能学习的时长？
+            - generic [ref=e156]:
+              - button "不足 1 小时" [ref=e157] [cursor=pointer]
+              - button "2～3 小时" [ref=e158] [cursor=pointer]
+              - button "3～5 小时" [ref=e159] [cursor=pointer]
+              - button "5 小时以上" [ref=e160] [cursor=pointer]
+          - generic [ref=e161]:
+            - paragraph [ref=e162]: 你是否有清晰的技术成长路径？
+            - generic [ref=e163]:
+              - button "没有，走一步看一步" [ref=e164] [cursor=pointer]
+              - button "有模糊方向" [ref=e165] [cursor=pointer]
+              - button "有明确方向" [ref=e166] [cursor=pointer]
+              - button "有具体阶段计划并定期校准" [ref=e167] [cursor=pointer]
+          - generic [ref=e168]:
+            - paragraph [ref=e169]: 你是否有项目沉淀与复盘的习惯？
+            - generic [ref=e170]:
+              - button "从不记录" [ref=e171] [cursor=pointer]
+              - button "偶尔写笔记" [ref=e172] [cursor=pointer]
+              - button "经常总结并输出" [ref=e173] [cursor=pointer]
+              - button "形成系统知识库并分享" [ref=e174] [cursor=pointer]
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - heading "人际关系" [level=3] [ref=e178]
+          - generic [ref=e179]: 待作答
+        - generic [ref=e180]:
+          - generic [ref=e181]:
+            - paragraph [ref=e182]: 你每周与家人深度交流（非日常寒暄）的次数？
+            - generic [ref=e183]:
+              - button "几乎没有" [ref=e184] [cursor=pointer]
+              - button "1 次" [ref=e185] [cursor=pointer]
+              - button "2～3 次" [ref=e186] [cursor=pointer]
+              - button "4 次及以上" [ref=e187] [cursor=pointer]
+          - generic [ref=e188]:
+            - paragraph [ref=e189]: 你与朋友的联络与见面频率？
+            - generic [ref=e190]:
+              - button "很少主动联系" [ref=e191] [cursor=pointer]
+              - button "偶尔线上聊聊" [ref=e192] [cursor=pointer]
+              - button "经常联系，偶尔见面" [ref=e193] [cursor=pointer]
+              - button "有固定的朋友圈层与聚会" [ref=e194] [cursor=pointer]
+          - generic [ref=e195]:
+            - paragraph [ref=e196]: 当你需要帮助时，会主动开口求助吗？
+            - generic [ref=e197]:
+              - button "从不，怕麻烦别人" [ref=e198] [cursor=pointer]
+              - button "很少，习惯硬扛" [ref=e199] [cursor=pointer]
+              - button "必要时会求助" [ref=e200] [cursor=pointer]
+              - button "能自然寻求与给予支持" [ref=e201] [cursor=pointer]
+      - generic [ref=e202]:
+        - generic [ref=e203]:
+          - heading "心态情绪" [level=3] [ref=e205]
+          - generic [ref=e206]: 待作答
+        - generic [ref=e207]:
+          - generic [ref=e208]:
+            - paragraph [ref=e209]: 你近期的情绪稳定性如何？
+            - generic [ref=e210]:
+              - button "经常焦虑、易怒" [ref=e211] [cursor=pointer]
+              - button "偶尔情绪波动" [ref=e212] [cursor=pointer]
+              - button "整体稳定，能自我调节" [ref=e213] [cursor=pointer]
+              - button "情绪稳定，内心平和" [ref=e214] [cursor=pointer]
+          - generic [ref=e215]:
+            - paragraph [ref=e216]: 你是否有冥想、正念或放空练习？
+            - generic [ref=e217]:
+              - button "从不练习" [ref=e218] [cursor=pointer]
+              - button "偶尔尝试" [ref=e219] [cursor=pointer]
+              - button "每周有固定练习" [ref=e220] [cursor=pointer]
+              - button "每日 10 分钟以上" [ref=e221] [cursor=pointer]
+          - generic [ref=e222]:
+            - paragraph [ref=e223]: 面对突发压力（加班/冲突/计划外支出），你的应对？
+            - generic [ref=e224]:
+              - button "容易崩溃或逃避" [ref=e225] [cursor=pointer]
+              - button "会焦虑但能硬撑" [ref=e226] [cursor=pointer]
+              - button "能冷静分析处理" [ref=e227] [cursor=pointer]
+              - button "从容应对，善用支持系统" [ref=e228] [cursor=pointer]
+      - generic [ref=e229]:
+        - generic [ref=e230]:
+          - heading "家庭责任" [level=3] [ref=e232]
+          - generic [ref=e233]: 待作答
+        - generic [ref=e234]:
+          - generic [ref=e235]:
+            - paragraph [ref=e236]: 你每周陪伴家人（伴侣/父母）的有效时间？
+            - generic [ref=e237]:
+              - button "不足 1 小时" [ref=e238] [cursor=pointer]
+              - button "1～3 小时" [ref=e239] [cursor=pointer]
+              - button "3～7 小时" [ref=e240] [cursor=pointer]
+              - button "7 小时以上" [ref=e241] [cursor=pointer]
+          - generic [ref=e242]:
+            - paragraph [ref=e243]: 你是否参与家庭事务（财务/家务/规划）的决策？
+            - generic [ref=e244]:
+              - button "完全不参与" [ref=e245] [cursor=pointer]
+              - button "被动配合" [ref=e246] [cursor=pointer]
+              - button "积极参与共商" [ref=e247] [cursor=pointer]
+              - button "主动主导家庭规划" [ref=e248] [cursor=pointer]
+          - generic [ref=e249]:
+            - paragraph [ref=e250]: 你对步入婚姻/育子的准备程度？
+            - generic [ref=e251]:
+              - button "还没认真想过" [ref=e252] [cursor=pointer]
+              - button "有想法但无计划" [ref=e253] [cursor=pointer]
+              - button "正在做准备（财务/能力/心态）" [ref=e254] [cursor=pointer]
+              - button "已基本就绪并持续学习" [ref=e255] [cursor=pointer]
+      - generic [ref=e256]:
+        - generic [ref=e257]:
+          - heading "精神成长" [level=3] [ref=e259]
+          - generic [ref=e260]: 待作答
+        - generic [ref=e261]:
+          - generic [ref=e262]:
+            - paragraph [ref=e263]: 你每月完整阅读的书籍数量？
+            - generic [ref=e264]:
+              - button "0 本" [ref=e265] [cursor=pointer]
+              - button "1 本" [ref=e266] [cursor=pointer]
+              - button "2 本" [ref=e267] [cursor=pointer]
+              - button "3 本及以上" [ref=e268] [cursor=pointer]
+          - generic [ref=e269]:
+            - paragraph [ref=e270]: 你保持学习新事物的热情程度？
+            - generic [ref=e271]:
+              - button "没有，安于现状" [ref=e272] [cursor=pointer]
+              - button "偶尔有兴趣" [ref=e273] [cursor=pointer]
+              - button "会主动学习感兴趣的新领域" [ref=e274] [cursor=pointer]
+              - button "有持续学习的系统习惯" [ref=e275] [cursor=pointer]
+          - generic [ref=e276]:
+            - paragraph [ref=e277]: 你是否有独处思考或复盘的时间？
+            - generic [ref=e278]:
+              - button "几乎没有" [ref=e279] [cursor=pointer]
+              - button "偶尔睡前想想" [ref=e280] [cursor=pointer]
+              - button "每周固定复盘" [ref=e281] [cursor=pointer]
+              - button "每日记录+周复盘" [ref=e282] [cursor=pointer]
+      - generic [ref=e283]:
+        - generic [ref=e284]:
+          - heading "生活管理" [level=3] [ref=e286]
+          - generic [ref=e287]: 待作答
+        - generic [ref=e288]:
+          - generic [ref=e289]:
+            - paragraph [ref=e290]: 你的时间管理能力如何？
+            - generic [ref=e291]:
+              - button "混乱，常被事情推着走" [ref=e292] [cursor=pointer]
+              - button "一般，靠 deadline 驱动" [ref=e293] [cursor=pointer]
+              - button "有计划，能安排重要的事" [ref=e294] [cursor=pointer]
+              - button "高效，主次分明且留有余量" [ref=e295] [cursor=pointer]
+          - generic [ref=e296]:
+            - paragraph [ref=e297]: 你的居住与办公环境整洁度？
+            - generic [ref=e298]:
+              - button "比较乱，影响效率" [ref=e299] [cursor=pointer]
+              - button "一般，定期大扫除" [ref=e300] [cursor=pointer]
+              - button "较整洁，有收纳习惯" [ref=e301] [cursor=pointer]
+              - button "很整洁，物归原位" [ref=e302] [cursor=pointer]
+          - generic [ref=e303]:
+            - paragraph [ref=e304]: 你的生活节奏（作息/饮食/工作平衡）规律吗？
+            - generic [ref=e305]:
+              - button "很不规律，随缘" [ref=e306] [cursor=pointer]
+              - button "一般，偶尔失控" [ref=e307] [cursor=pointer]
+              - button "较规律，有基本节奏" [ref=e308] [cursor=pointer]
+              - button "很规律，工作生活平衡" [ref=e309] [cursor=pointer]
+    - generic [ref=e310]:
+      - button "上一步" [ref=e311] [cursor=pointer]:
+        - img
+        - text: 上一步
+      - button "完成，开启成长之旅" [ref=e312] [cursor=pointer]:
+        - text: 完成，开启成长之旅
+        - img
+  - paragraph [ref=e18]: 第 4 步 / 共 4 步 · 每天进步一点点

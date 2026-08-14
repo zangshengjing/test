@@ -1,0 +1,82 @@
+- generic [ref=e5]:
+  - banner [ref=e6]:
+    - link "成长星球" [ref=e7] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=e9]
+      - generic [ref=e11]: 成长星球
+    - navigation [ref=e12]:
+      - link "今日" [ref=e13] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e14]
+        - text: 今日
+      - link "成长" [ref=e16] [cursor=pointer]:
+        - /url: "#/growth"
+        - img [ref=e17]
+        - text: 成长
+      - link "学习" [ref=e20] [cursor=pointer]:
+        - /url: "#/learn"
+        - img [ref=e21]
+        - text: 学习
+      - link "统计" [ref=e23] [cursor=pointer]:
+        - /url: "#/stats"
+        - img [ref=e24]
+        - text: 统计
+      - link "目标" [active] [ref=e26] [cursor=pointer]:
+        - /url: "#/goals"
+        - img [ref=e27]
+        - text: 目标
+    - generic [ref=e31]:
+      - generic [ref=e32]: 8月14日 · 周五
+      - generic [ref=e33]: 👋 小明
+  - main [ref=e34]:
+    - generic [ref=e551]:
+      - generic [ref=e552]:
+        - generic [ref=e553]:
+          - heading "目标与设置" [level=1] [ref=e554]
+          - paragraph [ref=e555]: 管理成长目标、作息与数据
+        - button "新建目标" [ref=e556] [cursor=pointer]:
+          - img
+          - text: 新建目标
+      - generic [ref=e558]:
+        - img [ref=e559]
+        - paragraph [ref=e563]: 还没有目标，创建一个开始你的成长计划
+      - generic [ref=e564]:
+        - generic [ref=e565]:
+          - heading "作息设置" [level=2] [ref=e566]:
+            - img [ref=e567]
+            - text: 作息设置
+          - generic [ref=e570]:
+            - generic [ref=e571]:
+              - generic [ref=e572]:
+                - text: 起床时间
+                - textbox [ref=e573]: 06:30
+              - generic [ref=e574]:
+                - text: 睡觉时间
+                - textbox [ref=e575]: 23:00
+              - generic [ref=e576]:
+                - text: 上班时间
+                - textbox [ref=e577]: 09:00
+              - generic [ref=e578]:
+                - text: 下班时间
+                - textbox [ref=e579]: 18:30
+            - generic [ref=e580]:
+              - generic [ref=e581]: 单程通勤：30 分钟
+              - slider [ref=e586]
+            - button "保存设置" [ref=e587] [cursor=pointer]:
+              - img
+              - text: 保存设置
+        - generic [ref=e588]:
+          - heading "数据管理" [level=2] [ref=e589]:
+            - img [ref=e590]
+            - text: 数据管理
+          - paragraph [ref=e593]: 所有数据保存在本机 SQLite 数据库。支持导出 JSON 备份、导入恢复与一键重置。
+          - generic [ref=e594]:
+            - button "导出数据备份" [ref=e595] [cursor=pointer]:
+              - img
+              - text: 导出数据备份
+            - button "从备份导入" [ref=e596] [cursor=pointer]:
+              - img
+              - text: 从备份导入
+            - button "重置全部数据" [ref=e597] [cursor=pointer]:
+              - img
+              - text: 重置全部数据
