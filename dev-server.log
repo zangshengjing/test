@@ -76,3 +76,86 @@
 [server] [growth-server] API 已启动: http://localhost:3001/api/v1
 [server] 14:30:17 [tsx] change in ./src\engine\scheduler.ts Restarting...
 [server] [growth-server] API 已启动: http://localhost:3001/api/v1
+[server] 14:56:05 [tsx] change in ./src\db.ts Restarting...
+[server] 
+[server] node:internal/modules/run_main:123
+[server]     triggerUncaughtException(
+[server]     ^
+[server] Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'sql.js' imported from E:\ZSJ\test\server\src\db.ts
+[server]     at packageResolve (node:internal/modules/esm/resolve:873:9)
+[server]     at moduleResolve (node:internal/modules/esm/resolve:946:18)
+[server]     at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+[server]     at nextResolve (node:internal/modules/esm/hooks:864:28)
+[server]     at resolveBase (file:///E:/ZSJ/test/server/node_modules/tsx/dist/register-C4vWVmug.mjs:2:10334)
+[server]     at resolveDirectory (file:///E:/ZSJ/test/server/node_modules/tsx/dist/register-C4vWVmug.mjs:2:11421)
+[server]     at resolveTsPaths (file:///E:/ZSJ/test/server/node_modules/tsx/dist/register-C4vWVmug.mjs:2:13062)
+[server]     at async resolve (file:///E:/ZSJ/test/server/node_modules/tsx/dist/register-C4vWVmug.mjs:2:14742)
+[server]     at async nextResolve (node:internal/modules/esm/hooks:864:22)
+[server]     at async Hooks.resolve (node:internal/modules/esm/hooks:306:24) {
+[server]   code: 'ERR_MODULE_NOT_FOUND'
+[server] }
+[server] 
+[server] Node.js v20.20.2
+[server] 14:56:13 [tsx] change in ./src\index.ts Rerunning...
+[server] 
+[server] node:internal/modules/run_main:123
+[server]     triggerUncaughtException(
+[server]     ^
+[server] Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'sql.js' imported from E:\ZSJ\test\server\src\db.ts
+[server]     at packageResolve (node:internal/modules/esm/resolve:873:9)
+[server]     at moduleResolve (node:internal/modules/esm/resolve:946:18)
+[server]     at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+[server]     at nextResolve (node:internal/modules/esm/hooks:864:28)
+[server]     at resolveBase (file:///E:/ZSJ/test/server/node_modules/tsx/dist/register-C4vWVmug.mjs:2:10334)
+[server]     at resolveDirectory (file:///E:/ZSJ/test/server/node_modules/tsx/dist/register-C4vWVmug.mjs:2:11421)
+[server]     at resolveTsPaths (file:///E:/ZSJ/test/server/node_modules/tsx/dist/register-C4vWVmug.mjs:2:13062)
+[server]     at async resolve (file:///E:/ZSJ/test/server/node_modules/tsx/dist/register-C4vWVmug.mjs:2:14742)
+[server]     at async nextResolve (node:internal/modules/esm/hooks:864:22)
+[server]     at async Hooks.resolve (node:internal/modules/esm/hooks:306:24) {
+[server]   code: 'ERR_MODULE_NOT_FOUND'
+[server] }
+[server] 
+[server] Node.js v20.20.2
+[server] 14:56:17 [tsx] change in ./src\index.ts Rerunning...
+[server] 
+[server] node:internal/modules/run_main:123
+[server]     triggerUncaughtException(
+[server]     ^
+[server] Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'sql.js' imported from E:\ZSJ\test\server\src\db.ts
+[server]     at packageResolve (node:internal/modules/esm/resolve:873:9)
+[server]     at moduleResolve (node:internal/modules/esm/resolve:946:18)
+[server]     at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+[server]     at nextResolve (node:internal/modules/esm/hooks:864:28)
+[server]     at resolveBase (file:///E:/ZSJ/test/server/node_modules/tsx/dist/register-C4vWVmug.mjs:2:10334)
+[server]     at resolveDirectory (file:///E:/ZSJ/test/server/node_modules/tsx/dist/register-C4vWVmug.mjs:2:11421)
+[server]     at resolveTsPaths (file:///E:/ZSJ/test/server/node_modules/tsx/dist/register-C4vWVmug.mjs:2:13062)
+[server]     at async resolve (file:///E:/ZSJ/test/server/node_modules/tsx/dist/register-C4vWVmug.mjs:2:14742)
+[server]     at async nextResolve (node:internal/modules/esm/hooks:864:22)
+[server]     at async Hooks.resolve (node:internal/modules/esm/hooks:306:24) {
+[server]   code: 'ERR_MODULE_NOT_FOUND'
+[server] }
+[server] 
+[server] Node.js v20.20.2
+[server] 14:57:30 [tsx] change in ./src\db.ts Rerunning...
+[server] 14:58:22 [tsx] unlink in ./src\db.ts Rerunning...
+[server] 
+[server] node:internal/modules/run_main:123
+[server]     triggerUncaughtException(
+[server]     ^
+[server] Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'better-sqlite3' imported from E:\ZSJ\test\server\src\db.ts
+[server]     at packageResolve (node:internal/modules/esm/resolve:873:9)
+[server]     at moduleResolve (node:internal/modules/esm/resolve:946:18)
+[server]     at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+[server]     at nextResolve (node:internal/modules/esm/hooks:864:28)
+[server]     at resolveBase (file:///E:/ZSJ/test/server/node_modules/tsx/dist/register-C4vWVmug.mjs:2:10334)
+[server]     at resolveDirectory (file:///E:/ZSJ/test/server/node_modules/tsx/dist/register-C4vWVmug.mjs:2:11421)
+[server]     at resolveTsPaths (file:///E:/ZSJ/test/server/node_modules/tsx/dist/register-C4vWVmug.mjs:2:13062)
+[server]     at async resolve (file:///E:/ZSJ/test/server/node_modules/tsx/dist/register-C4vWVmug.mjs:2:14742)
+[server]     at async nextResolve (node:internal/modules/esm/hooks:864:22)
+[server]     at async Hooks.resolve (node:internal/modules/esm/hooks:306:24) {
+[server]   code: 'ERR_MODULE_NOT_FOUND'
+[server] }
+[server] 
+[server] Node.js v20.20.2
+[server] 14:58:25 [tsx] unlink in ./src\index.ts Rerunning...
+[server] 14:59:33 [tsx] change in ./src\db.ts Rerunning...
